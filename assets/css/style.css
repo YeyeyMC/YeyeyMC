@@ -1131,14 +1131,29 @@ section {
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
-  left: 15px;
+  left: 0px;
   right: 15px;
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: #ff4a17;
   padding: 15px 20px;
+  position: relative; /* Asegúrate de que .portfolio-info tenga posición relativa */
 }
+
+.portfolio .portfolio-item .portfolio-info .details-link {
+  display: block; /* Esto hará que cada enlace aparezca en su propia línea */
+  margin-top: 10px; /* Añade espacio entre los enlaces, ajusta según sea necesario */
+  right: auto; /* Quitamos la posición derecha forzada */
+  top: auto; /* Quitamos la posición superior forzada */
+  color: white; /* o el color que corresponda */
+}
+
+.portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+  bottom: 0;
+}
+
 
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
@@ -1154,12 +1169,8 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 50px;
-  font-size: 19px;
-  top: calc(50% - 18px);
-  color: white;
-  transition: ease-in-out 0.3s;
+  position: static; /* Cambia a static para que los elementos se acomoden en el flujo normal del documento */
+  /* Quita o ajusta el top y right si están definidos */
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
