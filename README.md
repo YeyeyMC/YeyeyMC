@@ -27,7 +27,7 @@ I develop polished and maintainable products from gameplay systems and interacti
 <a href="https://yeyeymc.github.io/Portfolio/">
   <img src="https://img.shields.io/badge/Portfolio-View_My_Work-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
 </a>
-<a href="www.linkedin.com/in/yeisonamunoz">
+<a href="https://www.linkedin.com/in/yeisonamunoz/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 <a href="mailto:munozceronyeisonandres@gmail.com">
